@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+:root{
+ 
+        --primary-color:#102B3F;
+        --secondary-color: #F3E8EE;
+    
+}
+
+.App{
+  background-color: var(--secondary-color);
+  height: auto;
+  font-family: 'Jost', sans-serif;
+  max-width: 100%;
+
+}
