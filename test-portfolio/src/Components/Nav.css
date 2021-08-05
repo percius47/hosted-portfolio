@@ -9,6 +9,7 @@
         --secondary-color: #FCEDF0;
         --hint: #ff3d64;
     }
+    
     .navParent{
         color: var(--secondary-color);
 background-color: var(--primary-color);

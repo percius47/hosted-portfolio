@@ -1,24 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css';
 
-import Nav from "../src/Components/Nav"
-import Intro from "./Components/Intro"
-import Projects from "./Components/Projects"
-import Blogs from "./Components/Blogs"
-import Skills from "./Components/Skills"
-import Footer from "./Components/Footer"
+
+
+import Home from './pages/Home';
+import ProjectPage from './pages/ProjectPage';
 
 function App() {
+  const [page,setPage]=useState(<ProjectPage/>)
   return (
     <div className="App">
-      <Nav/>
-       <Intro/>
-      <Projects/>
-     {/* <Blogs/>
-    <Skills/>
-
-      <Footer/> */}
-    </div>
+     
+  {page}
+  </div>
   );
 }
 

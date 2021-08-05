@@ -16,8 +16,8 @@ function Projects() {
                 <h6>Vanilla JS</h6>                    
                 </div>
                 <div className="code">
-                    <a className="live">View Live</a>
-                    <a className="source">View Source</a>
+                    <a href="/"className="live">View Live</a>
+                    <a href="/" className="source">View Source</a>
                 </div>
                 </div>
 
@@ -32,8 +32,8 @@ function Projects() {
                 <h6>Vanilla JS</h6>                    
                 </div>
                 <div className="code">
-                    <a className="live">View Live</a>
-                    <a className="source">View Source</a>
+                    <a href="/" className="live">View Live</a>
+                    <a href="/" className="source">View Source</a>
                 </div>
 
                 </div>
@@ -49,8 +49,8 @@ function Projects() {
                 <h6>Vanilla JS</h6>                    
                 </div>
                 <div className="code">
-                    <a className="live">View Live</a>
-                    <a className="source">View Source</a>
+                    <a href="/" className="live">View Live</a>
+                    <a href="/"className="source">View Source</a>
                 </div>
 
                 </div>

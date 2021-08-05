@@ -104,7 +104,11 @@
 
         width: 100%;
         margin-top: 0.5rem;
+      
     
+    }
+    .code a{
+        text-decoration: none;
     }
 
     .live{

@@ -8,15 +8,15 @@ function Nav() {
 
         <ul className="nav-pills">
             <li>
-                <a className="link active" href="/">Home</a>
+                <a className="link " href="/">Home</a>
             </li>
 
             <li>
-                <a className="link" href="/projects.html">Projects</a>
+                <a className="link active" href="/">Projects</a>
             </li>
 
             <li>
-                <a className="link" href="/blogs.html">Blogs</a>
+                <a className="link" href="/">Blogs</a>
             </li>
         </ul>
         </div>
