@@ -72,7 +72,7 @@ function goTop(){
             <div className="top"
             onClick={goTop}
             >
-            
+             
             <FaAngleUp/>
             <span>Top</span>
             </div>

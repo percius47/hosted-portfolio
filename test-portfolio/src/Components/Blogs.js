@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Blogs.css";
-
+import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
 function Blogs() {
     return (
         <div className="blog">
@@ -60,10 +60,8 @@ function Blogs() {
                 
             </div>
             {/* Cardparent End */}
-          
-            <a 
-            className="viewA"
-            href="/">View All</a>
+            <NavLink exact to="/blogs" className="viewA">View All</NavLink>
+           
           
 
         </div>
