@@ -1,5 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+import BlogsPage from '../pages/BlogsPage';
 import Home from '../pages/Home';
 import ProjectPage from '../pages/ProjectPage';
  import "./Nav.css"
@@ -22,7 +23,7 @@ function Nav() {
             </li>
 
             <li>
-                {/* <a className="link"  >Blogs</a> */}
+            <NavLink exact to="/blogs" className="link" activeClassName="active"> Blogs</NavLink>
             </li> 
         </ul>
         </div>
@@ -40,9 +41,9 @@ function Nav() {
        
            
           
-          {/* <Route path="/blogs">
-            <Blogs />
-          </Route>  */}
+          <Route path="/blogs">
+            <BlogsPage />
+          </Route> 
        </Switch>
         </Router>
     )

@@ -1,5 +1,6 @@
 import React from 'react'
 import  "./Projects.css"
+import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
 function Projects() {
     return (
         <div className="project">
@@ -59,10 +60,8 @@ function Projects() {
                 
             </div>
             {/* Cardparent End */}
-          
-            <a 
-            className="viewA"
-            href="/">View All</a>
+            <NavLink exact to="/projects" className="viewA">View All</NavLink>
+           
           
         </div>
     )

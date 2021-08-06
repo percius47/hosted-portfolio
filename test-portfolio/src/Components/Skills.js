@@ -97,7 +97,8 @@ function Skills() {
                      }
                   }
 
-                  )}                 </div> 
+                  )}                
+                   </div> 
                  <button className="btnMore"
                  onClick={   clickHandler }
                  >View {btnDisp}</button>

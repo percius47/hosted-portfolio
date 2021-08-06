@@ -4,16 +4,16 @@ import React from 'react'
 
 import {Helmet} from "react-helmet";
 import Footer from '../Components/Footer';
-import ProjectList from '../Components/ProjectList';
-const Title ="Prashant | Projects";
-function ProjectPage() {
+import BlogList from '../Components/BlogList';
+const Title ="Prashant | Blogs";
+function BlogsPage() {
     return (
         <>
         <Helmet>
      <title>{Title}</title>
          </Helmet>
          
-          <ProjectList/>
+          <BlogList />
            
         
      
@@ -24,4 +24,4 @@ function ProjectPage() {
     )
 }
 
-export default ProjectPage
+export default BlogsPage
