@@ -11,15 +11,11 @@ function Blogs() {
                 <h3>Stock Returns</h3>
                 <small>31st July 2021</small>
                 <p>App Calculates your absolute and percentage profit/loss in stock transactions.</p>
-                <div className="techStack">
-                <h6>MERN</h6>
-                <h6>Tailwind CSS</h6>
-                <h6>Vanilla JS</h6>                    
-                </div>
                 <div className="code">
-                    <a href="/" className="live">View Live</a>
-                    <a href="/" className="source">View Source</a>
+                    <a href="/" className="liveB">Read</a>
+                  
                 </div>
+
                 </div>
 
                 <div className="card">
@@ -27,15 +23,11 @@ function Blogs() {
                 <h3>Stock Returns</h3>
                 <small>31st July 2021</small>
                 <p>App Calculates your absolute and percentage profit/loss in stock transactions.</p>
-                <div className="techStack">
-                <h6>MERN</h6>
-                <h6>Tailwind CSS</h6>
-                <h6>Vanilla JS</h6>                    
-                </div>
                 <div className="code">
-                    <a href="/" className="live">View Live</a>
-                    <a href="/" className="source">View Source</a>
+                    <a href="/" className="liveB">Read</a>
+                  
                 </div>
+
 
                 </div>
     
@@ -44,14 +36,10 @@ function Blogs() {
                 <h3>Stock Returns</h3>
                 <small>31st July 2021</small>
                 <p>App Calculates your absolute and percentage profit/loss in stock transactions.</p>
-                <div className="techStack">
-                <h6>MERN</h6>
-                <h6>Tailwind CSS</h6>
-                <h6>Vanilla JS</h6>                    
-                </div>
+               
                 <div className="code">
-                    <a href="/" className="live">View Live</a>
-                    <a href="/" className="source">View Source</a>
+                    <a href="/" className="liveB">Read</a>
+                  
                 </div>
 
                 </div>

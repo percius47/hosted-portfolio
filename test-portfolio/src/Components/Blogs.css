@@ -107,35 +107,19 @@
     
     }
 
-    .live{
+    .liveB{
         background-color: var(--green);
         border-radius: 1rem;
         color: white;
         border: none;
-        padding: 0.3rem;
+        padding: 4px 12px;
         margin-right: 1rem;
         font-size: 0.8rem;
 
 
     }
-    .live:hover{
+    .liveB:hover{
         background-color: var(--hint);
-        cursor: pointer;
-        color: white;
-        transition: all 0.2s ease-in-out;
-    }
-    .source{
-        background-color: transparent;
-        border-radius: 1rem;
-        color: var(--green);
-        border: 1px solid var(--green);
-        padding: 0.3rem;
-        margin-right: 1rem;
-        font-size: 0.8rem;
-    }
-
-    .source:hover{
-        background-color: var(--green);
         cursor: pointer;
         color: white;
         transition: all 0.2s ease-in-out;
