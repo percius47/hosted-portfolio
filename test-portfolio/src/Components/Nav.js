@@ -9,12 +9,16 @@ function Nav() {
         <Router>
         <div className="navParent">
     <div className="navigation">
-        <h2> <span>Prashant Singh Chauhan</span>.</h2>
+        <h2> 
+        <NavLink exact to="/" className="link" >
+            <span>Prashant Singh Chauhan</span>.
+        </NavLink>           
+             </h2>
 
         <ul className="nav-pills">
             <li>
-              
-                <NavLink exact to="/" className="link" activeclassName='active' > Home</NavLink>
+            <NavLink exact to="/" className="link" activeClassName="active"> Home</NavLink>
+               
             </li>
 
             <li>
