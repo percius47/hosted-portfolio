@@ -1,18 +1,15 @@
 import React, { useState } from 'react'
-import './App.css';
+  import './App.css';
 
 
-
-import Home from './pages/Home';
-import ProjectPage from './pages/ProjectPage';
+import Nav from './Components/Nav';
 
 function App() {
-  const [page,setPage]=useState(<ProjectPage/>)
+
   return (
     <div className="App">
-     
-  {page}
-  </div>
+      <Nav/>
+      </div>
   );
 }
 

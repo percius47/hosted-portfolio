@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from "../hero.svg"
+import Hero from "../images/hero.svg"
 import "./Intro.css"
 function Intro() {
     return (

@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+:root{
+   
+        --primary-color:#102B3F;
+        --secondary-color: #FCEDF0;
+        --hint: #ff3d64;
+        --green:#1C9C76;
+    }
+
+.footer{
+    height: 15vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+}
+.wrapper{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+   position: relative;
+   
+}
+.copyright{
+    position: absolute;
+  
+  
+    bottom: 5px;
+    left: 0;
+}
+.copyright span{
+    color: var(--green);
+}
+.social{
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+   
+
+   
+}
+
+.git{
+    position:relative;
+    left: 0%;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color:white;
+   
+}
+
+.twitter{
+    position: relative;
+    left: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color:white;
+}
+.linked{
+    position: relative;
+    left: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color:white;
+}
+

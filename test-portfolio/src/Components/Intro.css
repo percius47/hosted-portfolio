@@ -27,6 +27,11 @@
         
        
     }
+    @media screen and (max-width:700px){
+        .text{
+         font-size: 80%;
+        }
+     }
     .text h1{
         color: var(--green);
         display: block;
