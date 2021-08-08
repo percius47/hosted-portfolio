@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Blogs.css";
-import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 function Blogs() {
     return (
         <div className="blog">
@@ -8,11 +8,11 @@ function Blogs() {
             <div className="cardParent">
 
                 <div className="card">
-                <h3>Stock Returns</h3>
-                <small>31st July 2021</small>
-                <p>App Calculates your absolute and percentage profit/loss in stock transactions.</p>
+                <h3>Array of Objects in JavaScript is not scary at all!</h3>
+                {/* <small>31st July 2021</small> */}
+                <p>Coming Soon!</p>
                 <div className="code">
-                    <a href="/" className="liveB">Read</a>
+                    <a href="https://hashnode.com/@PrashantWrites" className="liveB">Visit Blogger</a>
                   
                 </div>
 
@@ -20,11 +20,11 @@ function Blogs() {
 
                 <div className="card">
 
-                <h3>Stock Returns</h3>
-                <small>31st July 2021</small>
-                <p>App Calculates your absolute and percentage profit/loss in stock transactions.</p>
+                <h3>React JS: What has it got to offer?</h3>
+                <small>1st August 2021</small>
+                <p>A short read to give the basic idea about the differences and if React is worth the shift.</p>
                 <div className="code">
-                    <a href="/" className="liveB">Read</a>
+                    <a href="https://prashantxwrites.hashnode.dev/react-and-vanilla-the-journey" className="liveB">Read</a>
                   
                 </div>
 
@@ -33,12 +33,12 @@ function Blogs() {
     
                 <div className="card">
 
-                <h3>Stock Returns</h3>
+                <h3>Responsive Designs 101!</h3>
                 <small>31st July 2021</small>
-                <p>App Calculates your absolute and percentage profit/loss in stock transactions.</p>
+                <p>Responsive Designs: A short blog for a cleaner CSS design and demystifying the scary media queries.</p>
                
                 <div className="code">
-                    <a href="/" className="liveB">Read</a>
+                    <a href="https://prashantxwrites.hashnode.dev/responsive-designs-a-short-blog-for-a-cleaner-css-design" className="liveB">Read</a>
                   
                 </div>
 
