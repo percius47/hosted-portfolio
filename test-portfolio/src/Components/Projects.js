@@ -17,6 +17,7 @@ function Projects() {
                 <h6>Vanilla JS</h6>                   
                 <h6>Firebase</h6>
                 <h6>Stripe API</h6>                    
+               
                 </div>
                 <div className="code">
                     <a href="https://stock-prices.netlify.app"className="live">View Live</a>
@@ -54,7 +55,7 @@ function Projects() {
                 <div className="code">
                     <a href="https://stock-prices.netlify.app"className="live">View Live</a>
                     <a href="https://github.com/percius47/stox" className="source">View Source</a>
-                </div>
+                </div> 
                 </div>
 
 

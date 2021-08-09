@@ -13,7 +13,7 @@
 
 
     .project{
-        width: 80%;
+        width: 90%;
         margin: 1rem auto;
         height: auto;
         padding-bottom: 1rem;
@@ -21,7 +21,7 @@
     }
 
     .project h2{
-        width: 20%;
+        width: fit-content;
         display: block;
     }
     .project h2 span{
@@ -29,14 +29,14 @@
     }
     .cardParent{
        
-        width: 90%;
-        margin: 1rem auto;
+        width: 100%;
+        margin: 1rem 0;
         justify-content: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
         grid-gap: 16px;
-        padding: 0 50px;
+     
 
 
     }
@@ -44,29 +44,31 @@
     @media screen and (max-width:1000px){
         .cardParent{
         grid-template-columns: 1fr 1fr;
+        padding: 0;
         }
     }
     
     @media screen and (max-width:768px){
         .cardParent{
         grid-template-columns:  1fr;
-        padding:0 20px;
+        padding:0px;
     }}
 
     .card{
        
         background-color: white;
-        padding:0.5rem;
-
+        /* padding:0.5rem; */
+      
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        width: 80%;
+       width: 80%;
         border-radius: 1rem;
         /* max-height: 90%; */
-        padding: 2rem;
+        padding: 1rem;
         box-shadow: 0 1px 3px rgba(0,0,0,0.2);
         transition: all 0.2s ease-in-out;
+        justify-self: center;
     }
 
 .card:hover{
@@ -87,17 +89,28 @@
     }
 
     .techStack{
-        width: max-content;
-        margin-bottom: 0.5rem;
+        width: 80%;
+      
+        height: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        grid-gap: 8px;
+        justify-self: center;
+        justify-content: center;
+       
+        
     }
     .techStack h6{
         color: white;
         background-color: var(--primary-color);
-        display: inline;
-        margin: 0.3rem 0.5rem;
+        text-align: center;
+       font-size: 8px;
         border-radius: 1rem ;
+        width: 70%;
         padding: 0.4rem;
-        margin-bottom: 0.5rem;
+        
+
     }
 
     .code{

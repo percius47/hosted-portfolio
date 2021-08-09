@@ -23,7 +23,7 @@ function Footer() {
                <FaLinkedinIn /> 
                </a>
                
-               
+                
                 </div>
             </div>
             

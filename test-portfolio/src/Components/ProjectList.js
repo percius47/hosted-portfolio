@@ -81,6 +81,15 @@ const projects=[
 
     },
     {
+        title: "Emoji Interpreter",
+        date: "22nd July 2021",
+        description:"Emoji Interpreter App to tell us what each emoji from the given tray exactly mean. Tech Stack used- React JS.",
+        git:"https://github.com/percius47/emoji-interpreter",
+        live:"https://emoji-ctionary.netlify.app/"
+
+
+    },
+    {
         title: "BANANAZ!!",
         date: "23rd July 2021",
         description:"Bello minion fans. You always have fascinated about how we minions speak our language BANANA. Well, this app contains the secret formula of our Minion Land which translates English into Banana. So are you excited, human of the Earth!? Go on then!! Tech Stack used- MERN, Tailwind CSS, Vanilla JS",

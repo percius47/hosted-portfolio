@@ -24,6 +24,12 @@
    position: relative;
    
 }
+@media screen and (max-width:768px){
+.wrapper{
+    width: 90%;
+}
+
+}
 .copyright{
     position: absolute;
   
@@ -31,16 +37,20 @@
     bottom: 5px;
     left: 0;
 }
+@media screen and (max-width:768px){
+    .copyright{
+        font-size: 70%;
+        
+    }
+}
 .copyright span{
     color: var(--green);
 }
 .social{
     position: absolute;
-    right: 0;
+    right: 10%;
     bottom: 5px;
-   
-
-   
+     
 }
 
 .git{

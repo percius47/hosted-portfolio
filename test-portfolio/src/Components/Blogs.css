@@ -21,86 +21,76 @@
     }
 
     .blog h2{
-        width: 20%;
+        width: fit-content;
         display: block;
     }
     .blog h2 span{
         color: var(--hint);
     }
     .cardParentB{
-       
         width: 100%;
-        margin: 1rem auto;
-
+        margin: 1rem 0;
+        justify-content: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
         grid-gap: 16px;
-        padding: 0 50px;
 
 
     }
 
     @media screen and (max-width:1000px){
-        .cardParent{
+        .cardParentB{
         grid-template-columns: 1fr 1fr;
+        padding: 0;
         }
     }
     
     @media screen and (max-width:768px){
-        .cardParent{
+        .cardParentB{
         grid-template-columns:  1fr;
-        padding:0 20px;
+        padding: 0;
+     
     }}
 
-    .card{
+    .cardB{
        
+         
         background-color: white;
-        padding:0.5rem;
-
+        /* padding:0.5rem; */
+        width: 30%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        
+       width: 80%;
         border-radius: 1rem;
         /* max-height: 90%; */
-        padding: 2rem;
+        padding: 1rem;
         box-shadow: 0 1px 3px rgba(0,0,0,0.2);
         transition: all 0.2s ease-in-out;
+        justify-self: center;
     }
 
-.card:hover{
+.cardB:hover{
     transform: scale(1.05);
     transition: all 0.2s  ease-in-out;
 
     }
 
    
-    .card small{
+    .cardB small{
        
         margin-bottom: 0.2rem;
     }
-    .card p{
+    .cardB p{
 
         font-size: 0.92rem;
         margin-bottom: 0.5rem;
     }
 
-    .techStack{
-        width: max-content;
-        margin-bottom: 0.5rem;
-    }
-    .techStack h6{
-        color: white;
-        background-color: var(--primary-color);
-        display: inline;
-        margin: 0.3rem 0.5rem;
-        border-radius: 1rem ;
-        padding: 0.4rem;
-        margin-bottom: 0.5rem;
-    }
+  
 
-    .code{
+    .codeB{
 
         width: 100%;
         margin-top: 0.5rem;
@@ -115,6 +105,7 @@
         padding: 4px 12px;
         margin-right: 1rem;
         font-size: 0.8rem;
+        text-decoration: none;
 
 
     }
@@ -125,7 +116,7 @@
         transition: all 0.2s ease-in-out;
     }
   
-    .viewA{
+    .viewB{
         text-decoration: none;
         color: white;
         background-color: var(--hint);
@@ -141,7 +132,7 @@
         display: flex;
     }
 
-.viewA:hover{
+.viewB:hover{
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
 }

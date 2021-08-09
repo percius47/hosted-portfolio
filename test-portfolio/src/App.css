@@ -10,6 +10,6 @@
   background-color: var(--secondary-color);
   height: auto;
   font-family: 'Jost', sans-serif;
-  max-width: 100%;
+  width: 100%;
 
 }
