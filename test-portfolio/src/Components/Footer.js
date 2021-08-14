@@ -11,15 +11,15 @@ function Footer() {
                 <div className="social" >
               
             
-                <a href="https://github.com/percius47" className="git">
+                <a href="https://github.com/percius47" className="git" target="_blank" rel="noreferrer noopener">
                 
                 <FaGithub />
                 </a>
            
-                <a className="twitter" href="https://twitter.com/percius25">
+                <a  className="twitter" href="https://twitter.com/pareshaaaaan" target="_blank" rel="noreferrer noopener">
                <FaTwitter />
                </a>
-               <a href="https://linkedin.com/in/prashantworks47" className="linked">
+               <a href="https://linkedin.com/in/prashantworks47" className="linked" target="_blank" rel="noreferrer noopener">
                <FaLinkedinIn /> 
                </a>
                

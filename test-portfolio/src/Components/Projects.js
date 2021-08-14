@@ -20,8 +20,8 @@ function Projects() {
                
                 </div>
                 <div className="code">
-                    <a href="https://stock-prices.netlify.app"className="live">View Live</a>
-                    <a href="https://github.com/percius47/stox" className="source">View Source</a>
+                    <a href="https://netflix-redone.netlify.app/" target="_blank" rel="noreferrer noopener" className="live">View Live</a>
+                    <a href="https://github.com/percius47/netflix-clone" target="_blank" rel="noreferrer noopener" className="source">View Source</a>
                 </div>
                 </div>
 
@@ -37,8 +37,8 @@ function Projects() {
                 <h6>Firebase</h6>                    
                 </div>
                 <div className="code">
-                    <a href="https://prashant-todo.netlify.app/" className="live">View Live</a>
-                    <a href="https://github.com/percius47/todo-app-firebasereact" className="source">View Source</a>
+                    <a href="https://prashant-todo.netlify.app/" target="_blank" rel="noreferrer noopener" className="live">View Live</a>
+                    <a href="https://github.com/percius47/todo-app-firebasereact" target="_blank" rel="noreferrer noopener" className="source">View Source</a>
                 </div>
 
                 </div>
@@ -53,8 +53,8 @@ function Projects() {
                 <h6>Vanilla JS</h6>                    
                 </div>
                 <div className="code">
-                    <a href="https://stock-prices.netlify.app"className="live">View Live</a>
-                    <a href="https://github.com/percius47/stox" className="source">View Source</a>
+                    <a href="https://stock-prices.netlify.app" target="_blank" rel="noreferrer noopener" className="live">View Live</a>
+                    <a href="https://github.com/percius47/stox" target="_blank" rel="noreferrer noopener" className="source">View Source</a>
                 </div> 
                 </div>
 

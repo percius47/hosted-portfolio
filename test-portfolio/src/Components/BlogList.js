@@ -7,13 +7,14 @@ const projects=[
     {
         title: "React JS: What has it got to offer?",
         date: "1st August 2021",
-        description:"A short read to give the basic idea about the differences and if React is worth the shift."
-
+        description:"A short read to give the basic idea about the differences and if React is worth the shift.",
+        read: "https://prashantxwrites.hashnode.dev/react-and-vanilla-the-journey"
     },
     {
         title: "Responsive Designs 101!",
         date: "31st July 2021",
-        description:"Responsive Designs: A short blog for a cleaner CSS design and demystifying the scary media queries."
+        description:"Responsive Designs: A short blog for a cleaner CSS design and demystifying the scary media queries.",
+        read:"https://prashantxwrites.hashnode.dev/responsive-designs-a-short-blog-for-a-cleaner-css-design"
 
     }
 ];
@@ -37,7 +38,7 @@ function goTop(){
                             <h4 className="titleB">{item.title}</h4>
                             <small>{item.date}</small>
                             <p>{item.description}</p>
-                            <a href="/" className="liveProjectB">Read</a>
+                            <a href={item.read} target="_blank" rel="noreferrer noopener" className="liveProjectB">Read</a>
                            
                         </div>
                         );

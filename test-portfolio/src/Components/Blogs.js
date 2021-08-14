@@ -12,7 +12,7 @@ function Blogs() {
                 {/* <small>31st July 2021</small> */}
                 <p>Coming Soon!</p>
                 <div className="codeB">
-                    <a href="https://hashnode.com/@PrashantWrites" className="liveB">Visit Blogger</a>
+                    <a href="https://hashnode.com/@PrashantWrites" target="_blank" rel="noreferrer noopener" className="liveB">Visit Blogger</a>
                   
                 </div>
 
@@ -24,7 +24,7 @@ function Blogs() {
                 <small>1st August 2021</small>
                 <p>A short read to give the basic idea about the differences and if React is worth the shift.</p>
                 <div className="codeB">
-                    <a href="https://prashantxwrites.hashnode.dev/react-and-vanilla-the-journey" className="liveB">Read</a>
+                    <a href="https://prashantxwrites.hashnode.dev/react-and-vanilla-the-journey" target="_blank" rel="noreferrer noopener" className="liveB">Read</a>
                   
                 </div>
 
@@ -38,7 +38,7 @@ function Blogs() {
                 <p>Responsive Designs: A short blog for a cleaner CSS design and demystifying the scary media queries.</p>
                
                 <div className="codeB">
-                    <a href="https://prashantxwrites.hashnode.dev/responsive-designs-a-short-blog-for-a-cleaner-css-design" className="liveB">Read</a>
+                    <a href="https://prashantxwrites.hashnode.dev/responsive-designs-a-short-blog-for-a-cleaner-css-design"  target="_blank" rel="noreferrer noopener" className="liveB">Read</a>
                   
                 </div>
 

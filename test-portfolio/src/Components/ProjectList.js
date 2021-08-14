@@ -57,8 +57,8 @@ const projects=[
         title: "Lucky Person!",
         date: "6th August 2021",
         description:"App checks if the user is a lucky person based on their birth date and the choice of their lucky number. Tech Stack used- MERN, Tailwind CSS, Vanilla JS",
-        git:"https://github.com/percius47/tri-quiz",
-        live:"https://triangles-quiz.netlify.app"
+        git:"https://github.com/percius47/lucky-birthday",
+        live:"https://lucky-man.netlify.app/"
 
 
     },
@@ -86,6 +86,15 @@ const projects=[
         description:"Emoji Interpreter App to tell us what each emoji from the given tray exactly mean. Tech Stack used- React JS.",
         git:"https://github.com/percius47/emoji-interpreter",
         live:"https://emoji-ctionary.netlify.app/"
+
+
+    },
+    {
+        title: "Talk Klingon!!",
+        date: "23rd July 2021",
+        description:"Are you also a fan of StarTrek?? Learning Klingon is a fantasy of many and that is what we bring to you now. Learn Klingon and boast around your friends about who is the better follower. We are sure you will make them jealous!",
+        git:"https://github.com/percius47/talk-klingon",
+        live:"https://talk-klingon.netlify.app/"
 
 
     },
@@ -146,8 +155,8 @@ function goTop(){
                             <h4 className="title">{item.title}</h4>
                             <small>{item.date}</small>
                             <p>{item.description}</p>
-                            <a href={item.live} className="liveProject">View Live</a>
-                            <a href={item.git} className="codeProject">View Source</a>
+                            <a href={item.live} target="_blank" rel="noreferrer noopener" className="liveProject">View Live</a>
+                            <a href={item.git} target="_blank" rel="noreferrer noopener" className="codeProject">View Source</a>
                         </div>
                         );
                 })}
