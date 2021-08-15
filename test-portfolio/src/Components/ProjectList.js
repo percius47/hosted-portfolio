@@ -13,30 +13,6 @@ const projects=[
 
     },
     {
-        title: "To-Do App",
-        date: "22nd June 2021",
-        description:"App manages your to-dos in a list form, made using Firebase in React JS. Tech Stack used- MERN, Tailwind CSS, Vanilla JS, Firebase",
-        git:"https://github.com/percius47/todo-app-firebasereact",
-        live:"https://prashant-todo.netlify.app"
-
-    },
-    {
-        title: "Netflix re-done!",
-        date: "13th July 2021",
-        description:"A Netflix Clone App with database support included payment gateways and separate profile management with encrypted user login. using Stripe API. Tech Stack used- MERN, Tailwind CSS, Firebase, Stripe.",
-        git:"https://github.com/percius47/netflix-clone",
-        live:"https://netflix-redone.netlify.app/"
-
-    },
-    {
-        title: "OTT Recommendation App",
-        date: "25th July 2021",
-        description:"App recommends you OTT content with separate genres to choose from, made with a Netflix Theme.Tech Stack used- MERN, Tailwind CSS, Vanilla JS.",
-        git:"https://github.com/percius47/ott-recommendation",
-        live:"https://ott-recommendation.netlify.app"
-
-    },
-    {
         title: "Palindrome Birthdays!",
         date: "30th July 2021",
         description:"App tell if your birthday is a Palindrome or not in checked in all combinations, mm-dd-yyyy,mm-dd--yy,dd-mm-yyy, etc. Tech Stack used- MERN, Tailwind CSS, Vanilla JS.",
@@ -69,6 +45,14 @@ const projects=[
         git:"https://github.com/percius47/cash",
         live:"https://cashxmanager.netlify.app/"
 
+
+    },
+    {
+        title: "OTT Recommendation App",
+        date: "25th July 2021",
+        description:"App recommends you OTT content with separate genres to choose from, made with a Netflix Theme.Tech Stack used- MERN, Tailwind CSS, Vanilla JS.",
+        git:"https://github.com/percius47/ott-recommendation",
+        live:"https://ott-recommendation.netlify.app"
 
     },
     {
@@ -133,6 +117,22 @@ const projects=[
         live:"https://replit.com/@PrashantSingh41/markOne?embed=1&output=1#index.js"
 
 
+    },
+    {
+        title: "To-Do App",
+        date: "22nd June 2021",
+        description:"App manages your to-dos in a list form, made using Firebase in React JS. Tech Stack used- MERN, Tailwind CSS, Vanilla JS, Firebase",
+        git:"https://github.com/percius47/todo-app-firebasereact",
+        live:"https://prashant-todo.netlify.app"
+
+    },
+    {
+        title: "Netflix re-done!",
+        date: "13th July 2021",
+        description:"A Netflix Clone App with database support included payment gateways and separate profile management with encrypted user login. using Stripe API. Tech Stack used- MERN, Tailwind CSS, Firebase, Stripe.",
+        git:"https://github.com/percius47/netflix-clone",
+        live:"https://netflix-redone.netlify.app/"
+
     }
 ];
 
@@ -149,8 +149,14 @@ function goTop(){
             <h1>Projects</h1>
             <h3>This is my web development journey from basic CLI apps to a Full-Stack Application. </h3>
             <div className="listParent">
+                
+                <h3 className="listTitle">NEOG Projects</h3>
                 {projects.map(function (item,index){
-                        return(
+                       if(index<=projects.length-3)
+                       {
+                       return(
+                        
+                            
                             <div className="listCard">
                             <h4 className="title">{item.title}</h4>
                             <small>{item.date}</small>
@@ -159,6 +165,27 @@ function goTop(){
                             <a href={item.git} target="_blank" rel="noreferrer noopener" className="codeProject">View Source</a>
                         </div>
                         );
+                       }//if
+
+                })}
+
+<h3 className="listTitle">Other Projects</h3>
+                 {projects.map(function (item,index){
+                       if(index>projects.length-3)
+                       {
+                       return(
+                        
+                            
+                            <div className="listCard">
+                            <h4 className="title">{item.title}</h4>
+                            <small>{item.date}</small>
+                            <p>{item.description}</p>
+                            <a href={item.live} target="_blank" rel="noreferrer noopener" className="liveProject">View Live</a>
+                            <a href={item.git} target="_blank" rel="noreferrer noopener" className="codeProject">View Source</a>
+                        </div>
+                        );
+                       }//if
+
                 })}
 
                 

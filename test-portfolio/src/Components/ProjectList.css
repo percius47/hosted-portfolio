@@ -32,6 +32,12 @@
     padding-bottom: 2rem;
    
 }
+.listTitle{
+    color: var(--primary-color);
+    width: 70%;
+    border-bottom: var(--hint) 2px solid;
+    
+}
 .listCard{
     background-color: white;
     border-radius: 0.5rem;
