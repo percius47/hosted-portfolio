@@ -1,6 +1,6 @@
 import React from 'react'
 import  "./Projects.css"
-import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 function Projects() {
     return (
         <div className="project">
@@ -8,43 +8,37 @@ function Projects() {
             <div className="cardParent">
 
             <div className="card">
-                <h3>Netflix re-done!</h3>
-                <small>13th July 2021</small>
-                <p>A Netflix Clone App with database support included payment gateways and separate profile management with encrypted user login. using Stripe API. Tech Stack used- MERN, Tailwind CSS, Firebase, Stripe.</p>
+            <h3>To-do App</h3>
+                <small>22nd June 2021</small>
+                <p>App manages your to-dos in a list form, made using Firebase in React JS</p>
                 <div className="techStack">
                 <h6>MERN</h6>
               
                 <h6>Vanilla JS</h6>                   
-                <h6>Firebase</h6>
-                <h6>Stripe API</h6>                    
-               
+                         `<h6>Firebase</h6>             
+                
                 </div>
                 <div className="code">
-                    <a href="https://netflix-redone.netlify.app/" target="_blank" rel="noreferrer noopener" className="live">View Live</a>
-                    <a href="https://github.com/percius47/netflix-clone" target="_blank" rel="noreferrer noopener" className="source">View Source</a>
+                <a href="https://prashant-todo.netlify.app/" target="_blank" rel="noreferrer noopener" className="live">View Live</a>
+                    <a href="https://github.com/percius47/todo-app-firebasereact" target="_blank" rel="noreferrer noopener" className="source">View Source</a>
                 </div>
                 </div>
 
                 <div className="card">
 
-
                 <h3>Netflix re-done!</h3>
                 <small>13th July 2021</small>
                 <p>A Netflix Clone App with database support included payment gateways and separate profile management with encrypted user login using firebase and payment via Stripe API. <strong>Susbscriptions are not currently active due to Stripe API issues.</strong>  </p>
-
-                <h3>To-do App</h3>
-                <small>22nd June 2021</small>
-                <p>App manages your to-dos in a list form, made using Firebase in React JS</p>
-
                 <div className="techStack">
                 <h6>MERN</h6>
       
                 <h6>Vanilla JS</h6> 
-                <h6>Firebase</h6>                    
+                <h6>Firebase</h6>
+                       <h6>Stripe API</h6>           
                 </div>
                 <div className="code">
-                    <a href="https://prashant-todo.netlify.app/" target="_blank" rel="noreferrer noopener" className="live">View Live</a>
-                    <a href="https://github.com/percius47/todo-app-firebasereact" target="_blank" rel="noreferrer noopener" className="source">View Source</a>
+                <a href="https://netflix-redone.netlify.app/" target="_blank" rel="noreferrer noopener" className="live">View Live</a>
+                    <a href="https://github.com/percius47/netflix-clone" target="_blank" rel="noreferrer noopener" className="source">View Source</a>
                 </div>
 
                 </div>
