@@ -13,7 +13,7 @@ function Projects() {
                 <p>App manages your to-dos in a list form, made using Firebase in React JS</p>
                 <div className="techStack">
                 <h6>MERN</h6>
-                <h6>Tailwind CSS</h6>
+              
                 <h6>Vanilla JS</h6>                   
                          `<h6>Firebase</h6>             
                 
@@ -28,10 +28,10 @@ function Projects() {
 
                 <h3>Netflix re-done!</h3>
                 <small>13th July 2021</small>
-                <p>A Netflix Clone App with database support included payment gateways and separate profile management with encrypted user login. using Stripe API. Tech Stack used- MERN, Tailwind CSS, Firebase, Stripe. <strong>The Subscription section is not working due to some issues with Stripe.</strong></p>
+                <p>A Netflix Clone App with database support included payment gateways and separate profile management with encrypted user login using firebase and payment via Stripe API. <strong>Susbscriptions are not currently active due to Stripe API issues.</strong>  </p>
                 <div className="techStack">
                 <h6>MERN</h6>
-                <h6>Tailwind CSS</h6>
+      
                 <h6>Vanilla JS</h6> 
                 <h6>Firebase</h6>
                        <h6>Stripe API</h6>           
@@ -49,7 +49,7 @@ function Projects() {
                 <p>App Calculates your absolute and percentage profit/loss in stock transactions.</p>
                 <div className="techStack">
                 <h6>MERN</h6>
-                <h6>Tailwind CSS</h6>
+              
                 <h6>Vanilla JS</h6>                    
                 </div>
                 <div className="code">
