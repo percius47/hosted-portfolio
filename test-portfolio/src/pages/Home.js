@@ -7,10 +7,14 @@ import Intro from "../Components/Intro"
 import {Helmet} from "react-helmet";
 import Nav from '../Components/Nav'
 import Navig from '../Components/Nav'
+import { useHistory } from 'react-router-dom'
 
-const Title ="Prashant | Home";
 function Home() {
+    const Title ="Prashant | Home";
+    const history=useHistory();
     return (
+       
+
         <>
         {/* <Helmet>
      <title>{Title}</title>
@@ -24,7 +28,14 @@ function Home() {
      
           <Footer/> */}
            <h1>home</h1> 
-         
+         <button onClick={()=>{
+             history.push("/projects")
+         }}>Projects</button>
+          <button onClick={()=>{
+             history.push("/")
+         }}>Home</button> <button onClick={()=>{
+            history.push("/blogs")
+        }}>Blogs</button>
          </>
     )
 }

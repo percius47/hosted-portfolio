@@ -7,10 +7,15 @@ import Footer from '../Components/Footer';
 import BlogList from '../Components/BlogList';
 
 import Navig from '../Components/Nav';
-const Title ="Prashant | Blogs";
+import { useHistory } from 'react-router-dom';
+
 function BlogsPage() {
+    const Title ="Prashant | Blogs";
+    const history=useHistory();
     return (
         <>
+      
+
         {/* <Helmet>
      <title>{Title}</title>
          </Helmet>
@@ -23,6 +28,16 @@ function BlogsPage() {
             <Footer/>   */}
            
          <h1>BLogs</h1>
+         <button onClick={()=>{
+             history.push("/projects")
+         }}>Projects</button>
+          <button onClick={()=>{
+             history.push("/")
+         }}>Home</button> <button onClick={()=>{
+            history.push("/blogs")
+        }}>Blogs</button>
+         
+      
          </>
     )
 }
