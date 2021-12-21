@@ -11,7 +11,7 @@ const Title ="Prashant | Projects";
 function ProjectPage() {
     return (
         <>
-       <Helmet>
+       {/* <Helmet>
      <title>{Title}</title>
          </Helmet>
       <Navig/>
@@ -21,7 +21,7 @@ function ProjectPage() {
         
      
             <Footer/>  
-           
+            */}
             <h1>projects</h1>
          
          </>

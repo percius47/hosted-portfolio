@@ -12,7 +12,7 @@ const Title ="Prashant | Home";
 function Home() {
     return (
         <>
-        <Helmet>
+        {/* <Helmet>
      <title>{Title}</title>
          </Helmet>
    <Navig/>
@@ -22,8 +22,8 @@ function Home() {
           <Blogs/>
            <Skills/>
      
-          <Footer/> 
-           <h1>home</h1>
+          <Footer/> */}
+           <h1>home</h1> 
          
          </>
     )

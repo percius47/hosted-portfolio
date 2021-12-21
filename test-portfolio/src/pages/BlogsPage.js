@@ -11,7 +11,7 @@ const Title ="Prashant | Blogs";
 function BlogsPage() {
     return (
         <>
-        <Helmet>
+        {/* <Helmet>
      <title>{Title}</title>
          </Helmet>
       <Navig/>
@@ -20,7 +20,7 @@ function BlogsPage() {
            
         
      
-            <Footer/>  
+            <Footer/>   */}
            
          <h1>BLogs</h1>
          </>

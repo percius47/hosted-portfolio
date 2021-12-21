@@ -6,7 +6,7 @@ function Navig() {
     return (
        
         <div className="navParent">
-    <div className="navigation">
+    {/* <div className="navigation">
         <h2> 
         <NavLink exact to="/" className="link" >
             <span>Prashant Singh Chauhan</span>.
@@ -28,7 +28,7 @@ function Navig() {
             <NavLink exact to="/blogs" className="link" activeClassName="active"> Blogs</NavLink>
             </li> 
         </ul>
-        </div>
+        </div> */}
         </div>
         
     )
