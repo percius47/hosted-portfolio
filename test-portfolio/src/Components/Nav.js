@@ -2,7 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
 
  import "./Nav.css"
-function Nav() {
+function Navig() {
     return (
        
         <div className="navParent">
@@ -34,4 +34,4 @@ function Nav() {
     )
 };
 
-export default Nav
+export default Navig

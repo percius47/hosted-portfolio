@@ -10,17 +10,19 @@ function App() {
 
   return (
     <>
+    <div className="App">
       <h1>Prashant Test</h1>
-      <Router>
+      
+     <Router>
         <Switch>
-          <h1>Inside switch</h1>
-          {/* <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Home} />
 
           <Route path="/projects" component={ProjectPage} />
 
-          <Route exact path="/blogs" component={BlogsPage} /> */}
+          <Route exact path="/blogs" component={BlogsPage} /> 
         </Switch>
       </Router>
+      </div>
     </>
   );
 }
