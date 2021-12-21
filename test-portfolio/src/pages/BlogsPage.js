@@ -5,6 +5,7 @@ import React from 'react'
 import {Helmet} from "react-helmet";
 import Footer from '../Components/Footer';
 import BlogList from '../Components/BlogList';
+import Nav from '../Components/Nav';
 const Title ="Prashant | Blogs";
 function BlogsPage() {
     return (
@@ -12,6 +13,7 @@ function BlogsPage() {
         <Helmet>
      <title>{Title}</title>
          </Helmet>
+      <Nav/>
          
           <BlogList />
            

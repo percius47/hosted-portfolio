@@ -1,12 +1,10 @@
 import React from 'react'
 import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
-import BlogsPage from '../pages/BlogsPage';
-import Home from '../pages/Home';
-import ProjectPage from '../pages/ProjectPage';
+
  import "./Nav.css"
 function Nav() {
     return (
-        <Router>
+       
         <div className="navParent">
     <div className="navigation">
         <h2> 
@@ -33,23 +31,6 @@ function Nav() {
         </div>
         </div>
         
-
-        <Switch>
-         
-           <Route path="/projects" >
-              <ProjectPage/>
-              </Route> 
-              <Route exact path="/" >
-          <Home/>
-         </Route>
-       
-           
-          
-          <Route path="/blogs">
-            <BlogsPage />
-          </Route> 
-       </Switch>
-        </Router>
     )
 };
 
