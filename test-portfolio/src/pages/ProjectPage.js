@@ -14,7 +14,16 @@ function ProjectPage() {
     const history=useHistory();
     return (
         <>
-       {/* <Helmet>
+         <h1>projects</h1>
+            <button onClick={()=>{
+             history.push("/projects")
+         }}>Projects</button>
+          <button onClick={()=>{
+             history.push("/")
+         }}>Home</button> <button onClick={()=>{
+            history.push("/blogs")
+        }}>Blogs</button>
+       <Helmet>
      <title>{Title}</title>
          </Helmet>
       <Navig/>
@@ -24,16 +33,8 @@ function ProjectPage() {
         
      
             <Footer/>  
-            */}
-            <h1>projects</h1>
-            <button onClick={()=>{
-             history.push("/projects")
-         }}>Projects</button>
-          <button onClick={()=>{
-             history.push("/")
-         }}>Home</button> <button onClick={()=>{
-            history.push("/blogs")
-        }}>Blogs</button>
+           
+           
          
          </>
     )
