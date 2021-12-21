@@ -26,7 +26,7 @@ function ProjectPage() {
        <Helmet>
      <title>{Title}</title>
          </Helmet>
-      <Navig/>
+      {/* <Navig/> */}
          
           <ProjectList/>
            

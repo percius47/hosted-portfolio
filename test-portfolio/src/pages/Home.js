@@ -17,6 +17,9 @@ function Home() {
 
         <>
         
+        <Helmet>
+     <title>{Title}</title>
+         </Helmet>
            <h1>home</h1> 
          <button onClick={()=>{
              history.push("/projects")
@@ -27,15 +30,12 @@ function Home() {
             history.push("/blogs")
         }}>Blogs</button>
 
-        <Helmet>
-     <title>{Title}</title>
-         </Helmet>
-   <Navig/>
+   {/* <Navig/> */}
         
             <Intro/>
-           <Projects/>
+           {/* <Projects/>
           <Blogs/>
-           <Skills/>
+           <Skills/> */}
      
           <Footer/>
          </>

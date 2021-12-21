@@ -16,16 +16,7 @@ function BlogsPage() {
         <>
       
 
-        {/* <Helmet>
-     <title>{Title}</title>
-         </Helmet>
-      <Navig/>
-         
-          <BlogList />
-           
-        
-     
-            <Footer/>   */}
+       
            
          <h1>BLogs</h1>
          <button onClick={()=>{
@@ -37,7 +28,16 @@ function BlogsPage() {
             history.push("/blogs")
         }}>Blogs</button>
          
-      
+       <Helmet>    
+     <title>{Title}</title>
+         </Helmet>
+      {/* <Navig/> */}
+         
+          <BlogList />
+           
+        
+     
+            <Footer/>  
          </>
     )
 }
